@@ -24,6 +24,7 @@ This screen allows office administrators to quickly enter sender, receiver, and 
 - Responsive ERP layout (Desktop & Mobile)
 - Reusable form components
 - Success toast notification on submission
+ 
 
 ---
 
@@ -33,3 +34,13 @@ This screen allows office administrators to quickly enter sender, receiver, and 
 
 ```bash
 git clone https://github.com/athuliyaps/new_booking_entry.git
+
+
+##  Installation 
+
+npm install
+
+
+##  Run development server
+
+npm run dev
