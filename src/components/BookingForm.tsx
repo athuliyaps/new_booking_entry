@@ -119,9 +119,10 @@ useEffect(()=>{
           </h1>
           
           <form onSubmit={handleSubmit} className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Sender Details */}
             <SectionWrapper title="Sender Details">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <FormInput 
                   name="sender.fullName" 
                   label="Full Name" 
@@ -181,6 +182,9 @@ useEffect(()=>{
               </div>
             </SectionWrapper>
 
+
+          </div>
+           
             {/* Package Details  */}
             <SectionWrapper title="Package Details">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -220,7 +224,7 @@ useEffect(()=>{
                 type="submit"
                 className="w-max bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 px-4 rounded-2xl text-xl font-semibold shadow-xl hover:from-blue-700 hover:to-indigo-700 transform hover:scale-[1.00] transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-blue-200"
               >
-                Create Booking
+                Submit Booking
               </button>
             </div>
           </form>
